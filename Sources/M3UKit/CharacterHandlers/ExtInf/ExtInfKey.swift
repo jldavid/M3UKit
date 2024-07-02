@@ -29,6 +29,8 @@ public enum ExtInfKey: String {
      The `"tvg-logo"` key. The URL to the channel logo.
      */
     case tvgLogo = "tvg-logo"
-    
-    
+    /**
+     The `"tvg-id"` key. Specifies the unique identifier of the current media file. This tag is used to identify individual channels in the playlist on an EPG.
+     */
+    case tvgId = "tvg-id"
 }
